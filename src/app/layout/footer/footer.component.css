@@ -1,0 +1,67 @@
+.footer{
+    background-color: black;
+}
+
+.secICont{
+    margin-left: 9%;
+}
+
+.secIICont{
+    margin-left: 7%;
+}
+.secIIICont{
+    margin-left: 2%;
+}
+.secTxt{
+    color: white;
+    font-size: 25px;
+}
+
+.desTxt{
+    font-size: 19px;
+    color: #bababa;
+    margin-bottom: 23px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.specHei{
+    line-height: 48px;
+}
+
+.getDir{
+    color: #919191;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    background: transparent;
+    border: none;
+    border-bottom: 1.7px solid;
+}
+.horLine{
+    border: 1px solid rgba(255,255,255,.2);
+    margin-right: 9%;
+    margin-left: 9%;
+}
+.footTxt{
+position: relative;
+}
+
+.copTxt{
+    margin-left: 10%;
+    font-size: 19px;
+    color: #919191;
+    margin-bottom: 2%;
+    font-weight: 400;
+}
+.Links_icon{
+    right: 6%;
+    position: absolute;
+}
+
+i{
+    font-size: 20px;
+    color: white;
+}
