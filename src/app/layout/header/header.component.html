@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-lg pt-4 nav_cont " id="myDiv">
         <div class="container-fluid">
-            <div class="row " style="width: 100%;">
+            <div class="row " style="width: 100%;" id="rowD">
                 <div class="col-md-5 "> 
                     <div
                     class="collapse navbar-collapse navlistItem"
@@ -18,7 +18,9 @@
                       </li>
 
                       <li class="nav-item  px-3">
-                           <a> Rooms </a>
+                           <a
+                           [routerLink]="['/Rooms']"
+                           > Rooms </a>
                         </li>
 
                       <li class="nav-item  px-3">
@@ -43,7 +45,10 @@
 
                       
                       <li class="nav-item  px-3">
-                           <a> Contact </a>
+                        
+                           <a
+                           [routerLink]="['/Contact']"
+                           > Contact </a>
                         </li>
 
                     </ul>

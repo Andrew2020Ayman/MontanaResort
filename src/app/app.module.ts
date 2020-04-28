@@ -13,13 +13,20 @@ import {MatMenuModule} from '@angular/material/menu';
 import { AboutComponent } from './view/about/about.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
+
+import { RoomsComponent } from './view/rooms/rooms.component';
+import { ContactComponent } from './view/contact/contact.component';
+import {AgmCoreModule} from '@agm/core'
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    RoomsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +34,11 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     OwlModule,
     BrowserAnimationsModule,
     MatMenuModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    AgmCoreModule.forRoot({
+      /* apiKey:'AIzaSyD8CSL2P9dPVAq0efa3yskFoIUUdsxg7PQ' */
+       apiKey:'AIzaSyC9er13I_YgiTPvCSy2QeBdDsUTRHQsYEo'
+    }) 
   ],
   providers: [],
   bootstrap: [AppComponent]
