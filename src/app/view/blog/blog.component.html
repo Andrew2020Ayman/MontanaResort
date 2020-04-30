@@ -1,0 +1,50 @@
+<section class="Blog">
+    <div class="container-fluid">
+        <div   class=" img_Slider slide_bg" >
+             <h1 class="Title_cont"> Blog</h1>
+        </div>
+
+        <br><br>
+
+       <div class="row">
+           <div class="col-lg-8">
+                 <div class="BlogSection" *ngFor="let item of Blogs">
+                     <img src={{item.img}} class="blogImg">
+                     <div class="calender">
+                         <h3>{{item.day}}</h3>
+                         <p>{{item.month}}</p>
+                     </div>
+                     <br>
+                     <div class="BlogDes">
+                        <h2 class="BlogTitle"> {{item.title}} </h2>
+                        <p class="Bltxt">
+                          {{item.des}}
+                        </p>
+                        <div class="row CommSec">
+                            <div >
+                               
+                               <p> <i class="fa fa-user"></i> Travel LifeStyle </p> 
+                            </div>
+                            <span> | </span>
+                            
+                            <div>
+                              
+                               <p> <i class="fa fa-comments"></i> 03 Comments </p> 
+                            </div>
+                        </div>
+                     </div>
+                     
+                     <br><br><br>
+                 </div>
+           </div>
+           <div class="col-lg-4">
+
+           </div>
+       </div>
+
+
+     
+    </div>
+</section>
+
+    

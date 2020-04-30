@@ -1,0 +1,119 @@
+.slide_bg{
+    padding: 170px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    margin-top: 8%;
+    padding: 330px 0 234px;
+}
+.img_Slider{
+    top: -127px;
+    left: -15px;
+    position: relative;
+    width: 102%;
+    height: 106px;
+  
+    background-image: url("../../../assets/banner/bradcam.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.Title_cont{
+    z-index: 1;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: absolute;
+    font-weight: 400;
+    left: 45%;
+    top: 54%;
+    font-size: 65px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.BlogSection{
+    margin-left: 12%;
+}
+.calender{
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 5%;
+    background-color: #009DFF;
+    width: 10%;
+    /* height: 14%; */
+    padding-left: 3.3%;
+    border-radius: 10%;
+    padding-top: 0%;
+}
+.calender h3{
+    color: white;
+    margin-top: 16%;
+    position: absolute;
+}
+.calender p{
+    color: white;
+    font-size: 18px;
+    margin-top: 87%;
+}
+.calender:hover{
+    background-color: white;
+    border: 2px solid #009DFF;
+}
+
+.calender:hover h3 {
+    color: #009DFF;
+}
+.calender:hover p{
+    color: #009DFF;
+}
+
+
+.BlogDes{
+    box-shadow: -9px 10px 40px -8px rgba(66,64,66,0.47);
+    margin-top: -6%;
+    width: 98%;
+    padding-top: 15%;
+}
+
+.BlogTitle{
+    transition: .5s;
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-left: 6%;
+}
+.BlogTitle:hover{
+    color: #009DFF;
+}
+.Bltxt{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #4D4D4D;
+    margin-bottom: 13px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 6%;
+}
+.CommSec{
+    margin-left: 6%;
+}
+.CommSec i{
+    color: #999999;
+}
+
+.CommSec p{
+    color: #999999;
+    font-size: 15px;
+}
+.CommSec div{
+    padding-right: 2%;
+    cursor: pointer;
+}
+.CommSec span{
+    padding-right: 2%;
+}
+.CommSec div:hover i  , .CommSec div:hover p {
+    color: #009DFF;
+}
+.blogImg{
+    border-radius: 8px;
+    position: relative;
+}

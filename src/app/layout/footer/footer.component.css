@@ -9,10 +9,10 @@
 }
 
 .secIICont{
-    margin-left: 7%;
+    margin-left: 3%;
 }
 .secIIICont{
-    margin-left: 2%;
+    margin-left: 5%;
 }
 .secTxt{
     color: white;
@@ -31,6 +31,7 @@
 }
 
 .getDir{
+    outline: none;
     color: #919191;
     font-size: 18px;
     font-weight: 400;
@@ -41,6 +42,10 @@
     background: transparent;
     border: none;
     border-bottom: 1.7px solid;
+}
+.getDir:hover{
+    color: #009DFF;
+    border-bottom: 1.7px solid #009DFF;
 }
 .horLine{
     border: 1px solid rgba(255,255,255,.2);
@@ -53,17 +58,47 @@ position: relative;
 
 .copTxt{
     margin-left: 10%;
-    font-size: 19px;
+    font-size: 16px;
     color: #919191;
     margin-bottom: 2%;
     font-weight: 400;
 }
 .Links_icon{
-    right: 6%;
+    right: 9%;
     position: absolute;
+    width: 15%;
 }
 
 i{
     font-size: 20px;
     color: white;
+    padding-left: 24%;
+}
+.Email_footer{
+    width: 107%;
+    height: 18%;
+    padding-left: 5%;
+}
+
+.sign_btn{
+    position: absolute;
+    right: -2%;
+    top: 28.7%;
+    height: 18%;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background: #009DFF;
+    padding: 10px;
+    padding: 0 22px;
+    cursor: pointer; 
+}
+.secIIIICont{
+    margin-left: -3%;
+}
+
+.subTxt{
+    font-size: 16px;
+    color: #BABABA;
+    padding-top: 8%;
 }

@@ -16,7 +16,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 
 import { RoomsComponent } from './view/rooms/rooms.component';
 import { ContactComponent } from './view/contact/contact.component';
-import {AgmCoreModule} from '@agm/core'
+import {AgmCoreModule} from '@agm/core';
+import { BlogComponent } from './view/blog/blog.component';
+import { SingleCompComponent } from './view/single-comp/single-comp.component'
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import {AgmCoreModule} from '@agm/core'
     AboutComponent,
     FooterComponent,
     RoomsComponent,
-    ContactComponent
+    ContactComponent,
+    BlogComponent,
+    SingleCompComponent
   ],
   imports: [
     BrowserModule,
