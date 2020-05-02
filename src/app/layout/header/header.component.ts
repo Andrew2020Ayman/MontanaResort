@@ -8,7 +8,11 @@ declare var $: any;
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  BookHeader=false;
+
+  constructor() {
+    
+   }
 
   ngOnInit() {
     $(window).scroll(function(){
@@ -27,6 +31,24 @@ export class HeaderComponent implements OnInit {
       }
       
     });
+
+    $( function() {
+      $( "#datepicker" ).datepicker({
+        dateFormat: "dd-mm-yy"
+        ,	duration: "fast"
+      });
+    } );
+    
+  }
+
+  BookNowPOP(){
+    this.BookHeader = true;
+    document.querySelector("body").style.overflow="hidden";
+  }
+
+  ReturnToHome(){
+    this.BookHeader = false;
+    document.querySelector("body").style.overflow="scroll";
   }
 
 }

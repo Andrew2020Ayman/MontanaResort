@@ -114,7 +114,60 @@
                         
                          </div>
 
+                         <div class="parSection">
+                            <div class="media align-items-center">    
+                                <img src="../../../assets/blog/author.png" class="authimg">  
+                                <div class="mediaSec">
+                                    <p class="detTxt"> Harvard milan </p>
+                                    <p class=" "> 
+                                        Second divided from form fish beast made.
+                                         Every of seas all gathered use saying you're,
+                                          he our dominion twon Second divided from </p>
+                                </div>
+                            </div>
+                        </div>
+<br>
+                        <div class="CommentSection">
+                            <h4 class="commNum"> 03 Comments</h4>
+                            <div class="media align-items-center" *ngFor="let item of comments">    
+                                <img src={{item.img}} class="authimg">  
+                                <div class="mediaSec">
+                                    <p class=" "> {{item.des}} </p>
+                                    <div class="media align-items-center">
+                                            <p class="detTxt"> {{item.name}} </p> 
+                                            <p>{{ item.date}} at <span> {{ item.time}}</span></p>
+                                            <a href="" class="reptxt"> REPLY</a>
+                                    </div>
+                                   
+                                   
+                                </div>
+                            </div>
+                        </div>
                   
+                        <div class="ReplySection">
+                            <h4 class="commNum">Leave a Reply</h4>
+                           
+                            <div class="SectionI">
+                                 <textarea class="TxtArea"  placeholder="Write Comment"></textarea>
+                               <br> <br>
+                               
+                               <div class="row">
+                                   <div class="col-md-6">
+                                       <input class="NmSec" placeholder="Name">
+                                   </div>
+                                   <div class="col-md-6">
+                                     <input class="NmSec emSec" placeholder="Email">
+                                   </div>
+                                   
+                               </div>
+                               <br> <br>
+                               <input class="SubSec" placeholder="Website">
+                               <br><br><br>
+                               <button class="SendBtn">SEND Message</button>
+                               
+                             </div>
+<br> <br><br> <br>
+                        </div>
             </div>
 
             </div>

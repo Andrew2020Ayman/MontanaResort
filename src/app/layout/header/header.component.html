@@ -89,7 +89,7 @@
                             </ul>
                         </div>
 
-                        <button class="book_btn">
+                        <button class="book_btn" (click)="BookNowPOP()">
                             Book A Room
                         </button>
                     </div>
@@ -97,4 +97,39 @@
             </div>
         </div>
     </nav>
+
+    <div class="vidDiv" *ngIf="BookHeader">
+        <div class="OverlayBg" (click)="ReturnToHome()" >
+  
+          
+        </div>
+        <div class="BookPop">
+             <div class="innerPop">
+               <div class="row">
+                 <div class="col-xl-6">
+                    <p>Date: <input type="text" id="datetimepicker1"></p>
+                 </div>
+                 <div class="col-xl-6">
+                    <p>Date: <input type="text" id="datepicker"></p>
+                 </div>
+                 <div class="col-xl-6">
+                    <div class='input-group date' id='datetimepicker1'>
+                        <input type='text' class="form-control" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                 </div>
+                 <div class="col-xl-6">
+                    <label for="datepicker">Pick a Date
+                        <input type="text" id="datepicker" autocomplete="off">
+                    </label>	
+                 </div>
+                 <div class="col-xl-12"></div>
+                 <div class="col-xl-12"></div>
+               </div>
+             </div>
+          </div>
+     </div>
+
 </header>

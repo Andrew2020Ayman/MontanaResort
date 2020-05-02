@@ -10,15 +10,15 @@ declare var $: any;
 export class HomeComponent implements OnInit {
 
  
-  
+  playBool = false;
+  YouTubeVid=false;
+
+
   constructor() { 
     
   }
 
- /*  photos=[
-      {phot: "assets/banner/banner2.png"},
-      {phot:"assets/banner/banner.png"}
-  ];  */ 
+ 
   photos=[
      "assets/banner/banner2.png",
      "assets/banner/banner.png"
@@ -54,20 +54,21 @@ export class HomeComponent implements OnInit {
       "assets/banner/banner.png"
  
   ];
-  /* arr_img = [
-    {
-      img:'assets/banner/banner2.png',
-      title:'andrew'
-    },
-    {
-      img:'assets/banner/banner.png',
-      title:'andrew'
-    }
-  
-  ]; */
+ 
   ngOnInit() {
  
-
   }
+
+  playClick(){
+    this.playBool = !this.playBool;
+    this.YouTubeVid = true;
+    document.querySelector("body").style.overflow="hidden";
+  }
+  ReturnToBook(){
+    this.playBool = !this.playBool;
+    this.YouTubeVid = false;
+    document.querySelector("body").style.overflow="scroll";
+  }
+
 
 }
