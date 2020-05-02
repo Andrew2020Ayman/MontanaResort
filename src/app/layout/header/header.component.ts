@@ -12,6 +12,8 @@ export class HeaderComponent implements OnInit {
 
   constructor() {
     
+    
+
    }
 
   ngOnInit() {
@@ -38,7 +40,8 @@ export class HeaderComponent implements OnInit {
         ,	duration: "fast"
       });
     } );
-    
+
+  
   }
 
   BookNowPOP(){
