@@ -4,5 +4,8 @@ const app = express();
 // in the dist directory
 app.use(express.static(__dirname + '/dist'));
 // Start the app by listening on the default
+app.all('*' , (req,res)=>{
+  res.status(200).sendFile(__dirname + '/dist/index.html');
+})
 // Heroku port
 app.listen(process.env.PORT || 8080);
